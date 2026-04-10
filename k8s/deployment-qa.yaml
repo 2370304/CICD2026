@@ -50,7 +50,7 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: hello-app
+  name: hello-qa
   namespace: qa
   annotations:
     kubernetes.io/ingress.class: "traefik"
