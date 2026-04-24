@@ -35,11 +35,11 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: hello-app
+  name: hello-qa
   namespace: qa
 spec:
   selector:
-    app: hello-app
+    app: hello-qa
     env: dev
   ports:
     - port: 80
